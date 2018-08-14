@@ -1,0 +1,29 @@
+{
+  "name": "chilli-bin",
+  "version": "1.0.0",
+  "description": "Chilli-Bin App for NN",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saitama2016/Chilli-Bin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saitama2016/Chilli-Bin/issues"
+  },
+  "homepage": "https://github.com/Saitama2016/Chilli-Bin#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.8"
+  }
+}
