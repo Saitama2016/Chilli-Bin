@@ -2,10 +2,12 @@
   "name": "chilli-bin",
   "version": "1.0.0",
   "description": "Chilli-Bin App for NN",
-  "main": "server.js",
+  "proxy": "http://localhost:8080/",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ."
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   },
   "repository": {
     "type": "git",
